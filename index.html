@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vanshika Jain | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>VANSHIKA JAIN</h1>
+      <div class="nav-wrapper">
+        <button id="navToggle">&#9776;  <!-- This renders: ☰ -->
+        </button>
+        <div id="navLinks" class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skl">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#activities">Activities</a>
+        </div>
+      </div>
+      
+      <!-- <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav> -->
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <img src="">
+      <h2>Hello, I'm <span>VANSHIKA JAIN</span></h2>
+      <p>A passionate Web Developer</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+ 
+  
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Detail-oriented and creative Web Developer with a strong foundation in HTML, CSS, JavaScript, and React. Skilled in building responsive, user-friendly websites and web applications. Passionate about clean code, UI/UX design, and continuous learning to stay updated with the latest technologies. Seeking to contribute technical expertise and problem-solving skills to a dynamic development team.</p>
+    </div>
+  </section>
+  <div class="container" id="skl">
+    <h2>Skills</h2>
+  <section class="movie-slider" id="movie-slider">
+    <button class="scroll-btn left" onclick="scrollLeft()">&#10094;</button></button>
+    
+    <div class="movie-container" id="movieContainer">
+      <div class="movie"><img src="images.png" alt="Movie 1" /></div>
+      <div class="movie"><img src="5968242.png" alt="Movie 2" /></div>
+      <div class="movie"><img src="javascript-logo-javascript-icon-transparent-free-png.webp" alt="Movie 3" /></div>
+      <div class="movie"><img src="images (1).png" alt="Movie 4" /></div>
+      <div class="movie"><img src="png-transparent-figma-logo-tech-companies-thumbnail.png" alt="Movie 5" style="width:250px" /></div>
+      <div class="movie"><img src="images.jpeg" alt="Movie 5" style="width:250px" /></div>
+      <div class="movie"><img src="https___dev-to-uploads.s3.amazonaws.com_uploads_articles_v21zuzmvdgpt205kky3e.webp" alt="Movie 5" style="width:300px" /></div>
+      <!-- <div class="movie"><img src="oGitHub-Logo.png" alt="Movie 5" /></div> -->
+      <div class="movie"><img src="github-copilot-logo.jpeg" alt="Movie 5" style="width:250px"  /></div>
+      <div class="movie"><img src="bootstrap-original-wordmark-8x.png" alt="Movie 5" style="width:150px" /></div>
+      <div class="movie"><img src="1691829322canva-app-logo-png.png" alt="Movie 5" style="width:150px" /></div>
+      
+    </div>
+    
+    <button class="scroll-btn right" onclick="scrollRight()">&#10095;</button>
+  </section>
+  </div>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <details>
+            <summary>Portfolio Website</summary>
+            <p>A story told not in words, but in lines of code. A sleek, responsive portfolio built with HTML, CSS, JavaScript, and React to showcase my skills and projects.Some paint. I code. A digital handshake in a world full of noise.It’s not perfect, but it’s me—growing, learning, creating.</p>
+          </details>
+         
+          <!-- <p>//Every hero needs a suit—this is mine. Built with HTML, CSS, JavaScript, and React, my portfolio is the digital version of my Stark tech. Clean design like Vibranium, functionality like Jarvis, and transitions smoother than a Spidey swing. It’s not just a website—it’s my universe in code, ready to assemble.</p> -->
+        </div>
+        <div class="project-card">
+          <details>
+            <summary>Gym Landing page</summary>
+            <p>
+              Designed and developed a clean, responsive landing page using HTML, CSS, JavaScript, and Tailwind CSS. Focused on smooth user experience, fast loading speed, and mobile-first design. Integrated clear call-to-action buttons, modern UI elements, and a visually appealing layout to drive user engagement.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="slider-container">
+    <img id="sliderImage" src="image1.jpg" alt="Gallery Image">
+    <div class="buttons">
+      <button onclick="prevImage()">&#10094; Prev</button>
+      <button onclick="nextImage()">Next &#10095;</button>
+    </div>
+  </div>
+  
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:vanshikajain1204@gmail.com">Email </a></p>
+      <p>LinkedIn: <a href="#" target="_blank">YourProfile</a></p>
+    </div>
+  </section>
+  <!-- Scroll to Top Button -->
+<button onclick="scrollToTop()" id="topBtn" title="Go to top">&#x2B06;</button>
+
+<!-- Link to JS file -->
+<script src="p.js"></script>
+
+
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
